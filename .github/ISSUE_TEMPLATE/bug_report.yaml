@@ -26,22 +26,22 @@ body:
       Paste your Sophia Script preset
   validations:
     required: true
-  - type: markdown
-    attributes:
-      value: |
-        # Device information
-  - type: input
-    attributes:
-      label: Windows Version
-      description: Which version of Windows are you using? Press <kbd>Win</kbd> + <kbd>Pause/Break</kbd> to open the page to copy from.
-      placeholder: e.g. Windows 11 21H2 22000.527
-    validations:
-      required: true
-  - type: input
-    id: sophia-script-version
-    attributes:
-      label: Sophia Script version
-      description: Which version of Sophia Script are you using?
-      placeholder: e.g. 6.1.4
-    validations:
-      required: true
+- type: markdown
+  attributes:
+    value: |
+      # Device information
+- type: input
+  attributes:
+    label: Windows Version
+    description: Which version of Windows are you using? Press <kbd>Win</kbd> + <kbd>Pause/Break</kbd> to open the page to copy from.
+    placeholder: e.g. Windows 11 21H2 22000.527
+  validations:
+    required: true
+- type: input
+  id: sophia-script-version
+  attributes:
+    label: Sophia Script version
+    description: Which version of Sophia Script are you using?
+    placeholder: e.g. 6.1.4
+  validations:
+    required: true
